@@ -202,6 +202,75 @@ const thanos = {
   },
 };
 
+// NOVOS PERSONAGENS
+const gaviaoArqueiro = {
+  nome: "Clint Barton",
+  codinome: "Gavião Arqueiro",
+  armaPrincipal: "Arco e flechas",
+  armaSecundaria: "Truques explosivos",
+  velocidade: 75,
+  forca: 55,
+  resistencia: 65,
+  descricao: function () {
+    return (
+      "Nome do personagem: " +
+      this.nome +
+      "\n" +
+      "Codinome do personagem: " +
+      this.codinome +
+      "\n" +
+      "Arma principal: " +
+      this.armaPrincipal +
+      "\n" +
+      "Arma secundaria: " +
+      this.armaSecundaria +
+      "\n" +
+      "Nível de força: " +
+      this.forca +
+      "\n" +
+      "Nível de velocidade: " +
+      this.velocidade +
+      "\n" +
+      "Nível de resistência: " +
+      this.resistencia
+    );
+  },
+};
+
+const feiticeiraEscarlate = {
+  nome: "Wanda Maximoff",
+  codinome: "Feiticeira Escarlate",
+  armaPrincipal: "Magia do Caos",
+  armaSecundaria: "Telecinese",
+  velocidade: 80,
+  forca: 95,
+  resistencia: 85,
+  descricao: function () {
+    return (
+      "Nome do personagem: " +
+      this.nome +
+      "\n" +
+      "Codinome do personagem: " +
+      this.codinome +
+      "\n" +
+      "Arma principal: " +
+      this.armaPrincipal +
+      "\n" +
+      "Arma secundaria: " +
+      this.armaSecundaria +
+      "\n" +
+      "Nível de força: " +
+      this.forca +
+      "\n" +
+      "Nível de velocidade: " +
+      this.velocidade +
+      "\n" +
+      "Nível de resistência: " +
+      this.resistencia
+    );
+  },
+};
+
 const personagens = [
   capitaoAmerica,
   homemDeFerro,
@@ -209,6 +278,8 @@ const personagens = [
   hulk,
   viuvaNegra,
   thanos,
+  gaviaoArqueiro,
+  feiticeiraEscarlate, // agora totaliza 8
 ];
 
 function compararPersonagens() {

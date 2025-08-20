@@ -202,7 +202,6 @@ const thanos = {
   },
 };
 
-// NOVOS PERSONAGENS
 const gaviaoArqueiro = {
   nome: "Clint Barton",
   codinome: "Gavião Arqueiro",
@@ -279,7 +278,7 @@ const personagens = [
   viuvaNegra,
   thanos,
   gaviaoArqueiro,
-  feiticeiraEscarlate, // agora totaliza 8
+  feiticeiraEscarlate,
 ];
 
 function compararPersonagens() {
